@@ -22,7 +22,7 @@ export default {
         'smw': '1px 1px 60px rgba(142, 255, 139, 0.5)',
       },
       backgroundImage: {
-        'bg-main': "url('./public/images/backgroundpage.png')",
+        'bg-main': "url('../public/images/backgroundpage.png')",
       }
     },
   },
