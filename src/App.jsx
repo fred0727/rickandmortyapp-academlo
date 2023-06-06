@@ -30,7 +30,14 @@ function App() {
         />
       </div>
       <Location location={location} setLocation={setLocation} />
-      <ResidentList residents={location?.residents} location={location} />
+      {!location && (
+        <div className="text-secondary-green text-center sm:text-2xl">
+          Loading characters....
+        </div>
+      )}
+      {location && (
+        <ResidentList residents={location?.residents} location={location} />
+      )}
     </main>
   );
 }

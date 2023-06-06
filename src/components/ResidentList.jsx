@@ -13,7 +13,7 @@ const ResidentList = ({ residents, location }) => {
   }, [location]);
 
   return (
-    <div className="sm:px-4">
+    <div className="sm:px-4 sm:mt-10">
       <section className="grid gap-10 grid-cols-[repeat(auto-fill,_250px)] justify-center mt-5">
         {residentsInPage?.map((resident) => (
           <Resident resident={resident} key={resident} />
@@ -29,6 +29,7 @@ const ResidentList = ({ residents, location }) => {
                   ? "bg-secondary-green text-black font-bold"
                   : "bg-opac-bg border-[1px] border-primary-green"
               }`}
+              key={page}
             >
               {page}
             </button>
