@@ -20,6 +20,9 @@ export default {
       dropShadow: {
         'xsw': '1px 1px 60px rgba(142, 255, 139, 0.8)',
         'smw': '1px 1px 60px rgba(142, 255, 139, 0.5)',
+      },
+      backgroundImage: {
+        'bg-main': "url('images/background-page.png')",
       }
     },
   },
