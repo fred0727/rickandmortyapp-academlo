@@ -16,7 +16,7 @@ function App() {
   }, []);
 
   return (
-    <main className="min-h-screen bg-black text-white p-2 bg-[url(./images/background-page.png)] bg-cover bg-center bg-fixed font-firaCode">
+    <main className="min-h-screen bg-black text-white p-2 bg-[url(./public/images/background-page.png)] bg-cover bg-center bg-fixed font-firaCode">
       <div className="mt-[-100px] sm:mt-[-250px] flex justify-center relative">
         <img
           src="./images/img.png"
